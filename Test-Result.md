@@ -38,13 +38,13 @@ Theo em trên thực tế phương thức GET được sử dụng nhiều hơn.
 
 ​Các loại Route mà em thường sử dụng là:
 
-Route::get nhận resquest với phương thức GET.
-Route::post nhận resquest với phương thức POST.
-Route::put nhận resquest với phương thức PUT.
-Route::delete nhận resquest với phương thức DELETE.
-Route::group tạo ra các nhóm route.
-Route::resource sử dụng với resource controller.
-Route::prefix dùng để thêm tiền tố cho một nhóm các routes 
+- Route::get nhận resquest với phương thức GET.
+- Route::post nhận resquest với phương thức POST.
+- Route::put nhận resquest với phương thức PUT.
+- Route::delete nhận resquest với phương thức DELETE.
+- Route::group tạo ra các nhóm route.
+- Route::resource sử dụng với resource controller.
+- Route::prefix dùng để thêm tiền tố cho một nhóm các routes 
 
 **Câu 4**. Nếu trong thư mục `database/migrations` của bạn đang có 3 file migration lần lượt là 1,2,3. Bạn đã chạy `php artisan migrate` cho 3 file đó rồi.
 ​
